@@ -1,6 +1,6 @@
-import SignUp from "./SignUpForm";
+import SignUp from './SignUpForm';
 
-export default function SignUp() {
+export default function SignUp(currentUser) {
   return (
     <>
       <h1>Sign Up!</h1>
